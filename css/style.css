@@ -1,0 +1,134 @@
+@font-face {
+  src: url(../fonts/Luna.ttf);
+  font-family: Luna;
+}
+@font-face {
+  src: url(../fonts/JosefinSlab-Bold.ttf);
+  font-family: JSRB;
+}
+@font-face {
+  src: url(../fonts/JosefinSlab-SemiBold.ttf);
+  font-family: JSRSB;
+}
+@font-face {
+  src: url(../fonts/PatrickHandSC-Regular.ttf);
+  font-family: PHR;
+}
+
+body, html{
+  height:100%;
+  margin:0;
+  font-size:20px;
+  font-family:PHR;
+  font-weight:400;
+  line-height:1.8em;
+  color:#666;
+}
+
+.pimg1, .pimg2, .pimg3{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg1{
+  background-image:url('../img/image1.jpg');
+  min-height:100%;
+}
+
+.pimg2{
+  background-image:url('../img/image2.jpg');
+  min-height:100%;
+}
+
+.pimg3{
+  background-image:url('../img/image3.jpg');
+  min-height:100%;
+}
+
+.section{
+  text-align:center;
+  padding:1px 10px;
+}
+
+.section-dark{
+  background-color:#282e34;
+  color:#ddd;
+}
+
+.ptext{
+  position:absolute;
+  top:33%;
+  width:100%;
+  text-align:left;
+  padding-left: 8%;
+  color:#000;
+  opacity:0.97;
+  font-family:PHR;
+  font-weight: bold;
+  font-size:60px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+
+.ptext .border{
+  background-color:#111;
+  color:#fff;
+  padding:20px;
+  border-radius: 6px;
+}
+
+.ptext .border.trans{
+  background-color:transparent;
+}
+
+.ptext2{
+  position:absolute;
+  top:39%;
+  width:100%;
+  text-align:left;
+  padding-left: 8%;
+  color:#111;
+  font-family:monospace;
+  font-size:24px;
+  opacity:0.65;
+
+}
+
+.ptext2 .border{
+  background-color: #111;
+  color: #FFFFFF;
+  padding: 15px;
+}
+
+.ptext2 .border.trans{
+  background-color:transparent;
+
+}
+
+.title-about{
+  font-size: 30px;
+  font-family: JSRB;
+  letter-spacing: 4px;
+  font-weight: bold;
+}
+
+.body-about{
+  font-size: 20px;
+  font-family: JSRSB;
+  letter-spacing: 4px;
+}
+
+@media(max-width:568px){
+  .pimg1, .pimg2, .pimg3{
+    background-attachment:scroll;
+  }
+}
