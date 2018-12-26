@@ -25,6 +25,11 @@ body, html{
   color:#666;
 }
 
+
+header{
+  height: 100vh;
+}
+
 .pimg1, .pimg2, .pimg3{
   position:relative;
   opacity:0.70;
@@ -63,6 +68,41 @@ body, html{
   background-color:#282e34;
   color:#ddd;
 }
+
+
+.main-nav{
+  position: fixed;
+  top: 6%;
+  left: 70%;
+  width: 100%;
+  height: 100px;
+  padding: 10px 100px;
+}
+
+
+.main-nav li{
+  display: inline-block;
+  padding: 10px;
+
+}
+
+.main-nav a{
+  color: #FFF;
+  text-decoration: none;
+  padding: 5px 25px;
+  font-family: PHR;
+  font-size: 20px;
+  background-color: rgba(128, 128, 128, 0.5);
+  border-radius: 2px;
+}
+
+
+.main-nav li a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+}
+
+
 
 .ptext{
   position:absolute;
@@ -125,6 +165,35 @@ body, html{
   font-size: 20px;
   font-family: JSRSB;
   letter-spacing: 4px;
+}
+.ptext3{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  position:absolute;
+  padding: 10px;
+  align-content: center;
+  text-align:left;
+  width: 97%;
+  color:#111;
+  font-family:monospace;
+  font-size:24px;
+}
+
+.ptext3 >div{
+  background-color: white;
+}
+
+
+.square{
+  background-color: rgba(0, 0,0, 0.5);
+  height: 85%;
+  width: 90%;
+  top: 8%;
+  left: 6%;
+  position: absolute;
+
 }
 
 @media(max-width:568px){
