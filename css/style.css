@@ -224,7 +224,7 @@ nav ul li a:active{
 .contact{
   position:absolute;
   top: 20%;
-  left: 33%;
+  left: 50%;
   transition: translate(-50%,-50%);
 
 }
@@ -239,7 +239,7 @@ nav ul li a:active{
 .wrapper-contact{
   position: absolute;
   top: 43%;
-  left: 39%;
+  left: 50%;
   color: #000;
   letter-spacing: 8px;
 
