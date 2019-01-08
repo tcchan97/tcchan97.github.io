@@ -150,30 +150,41 @@ nav ul li a:active{
 
 .Title{
   position:absolute;
-  top:31%;
+  top:23%;
   width:100%;
   text-align:left;
   padding-left: 8%;
-  color:#000;
-  opacity:0.97;
+  color:#4c4c4c;
   font-family:PHR;
   font-weight: bold;
-  font-size:60px;
+  font-size:50px;
   letter-spacing:8px;
   text-transform:uppercase;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.Title img{
+  display: inline-block;
+  vertical-align: middle;
+  width: 10%;
+  opacity: 1.0;
+  border-radius: 60%;
 }
 
 .Intro{
   position:absolute;
-  top:39%;
+  top:44%;
   width:100%;
   text-align:left;
   padding-left: 8%;
-  color:#111;
+  color:#4c4c4c;
   font-family: JSRSB;
   font-size:24px;
-  opacity:0.65;
+}
 
+.Intro ul p{
+  margin: 0;
 }
 
 
@@ -193,17 +204,19 @@ nav ul li a:active{
   font-family: JSRB;
   letter-spacing: 4px;
   font-weight: bold;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 
 .body-about{
+  margin-top: 20px;
   font-size: 20px;
   font-family: JSRSB;
   letter-spacing: 3px;
 }
 
 .body-resume{
-  vertical-align: center;
+  display: inline-block;
+  vertical-align: middle;
   font-size: 20px;
   font-family: JSRSB;
   letter-spacing: 3px;
@@ -212,7 +225,8 @@ nav ul li a:active{
 
 
 .body-resume img{
-  vertical-align: center;
+  display: inline-block;
+  vertical-align: middle;
   width: 28px;
 }
 .body-resume img:hover{
@@ -223,26 +237,34 @@ nav ul li a:active{
 
 .contact{
   position:absolute;
-  top: 20%;
-  left: 33%;
-  transition: translate(-50%,-50%);
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-30%);
 
 }
 
 .contact a{
   display: inline-block;
+  width: 70px;
+  height: 70px;
   color: #000;
   margin: 50px;
   justify-content: center;
+  align-items: center;
   font-size: 70px;
 }
+
+.contact a:active{
+  color: white;
+}
+
 .wrapper-contact{
   position: absolute;
-  top: 43%;
-  left: 40%;
+  top: 50%;
+  left: 50%;
   color: #000;
   letter-spacing: 8px;
-
+  transform: translate(-50%, -50%);
 }
 
 
@@ -257,6 +279,30 @@ nav ul li a:active{
   width: 30px;
   margin-top: 20px 0;
 }
+
+.title-icon2{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px 0;
+  font-size: 20px;
+  font-family: JSRSB;
+}
+
+.title-icon2 img{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1px;
+  width: 30px;
+  margin-top: 20px 0;
+}
+
+
+
+.project-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
 
 
 @media(max-width:568px){
