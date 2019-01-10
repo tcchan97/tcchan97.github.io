@@ -233,6 +233,10 @@ nav ul li a:active{
   background-color: rgba(128, 128, 128, 0.5);
   border-radius: 5px;
 }
+.body-resume-link{
+  text-decoration: none;
+  color: #666;
+}
 
 
 .contact{
@@ -256,6 +260,9 @@ nav ul li a:active{
 
 .contact a:active{
   color: white;
+}
+.contact a:hover{
+  color: #666;
 }
 
 .wrapper-contact{
@@ -299,9 +306,71 @@ nav ul li a:active{
 
 
 .project-grid{
+  position: absolute;
+  top: 110%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 10%;
+  padding-bottom: 13%;
+  grid-gap: 5%;
 }
+
+
+.card1 {
+  /* Add shadows to create the "card" effect */
+
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10%;
+  width: 80%;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  /*background-color: rgba(128, 128, 128, 0.5);*/
+}
+
+.card1:hover .overlay{
+  opacity: 1;
+  display: block;
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  transition: .5s ease;
+  opacity: 0;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+
+.card1 img{
+  display: none;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-top: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.card1 img:hover{
+  background-color: black;
+}
+
+.cardD1{
+  visibility: hidden;
+}
+.cardD1:hover{
+  visibility: visible;
+}
+
+
 
 
 
