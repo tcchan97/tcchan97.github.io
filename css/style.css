@@ -22,7 +22,7 @@ body, html{
   padding: 0;
   outline:0;
   font-size:20px;
-  font-family:PHR;
+  font-family:JSRSB;
   font-weight:400;
   line-height:1.5em;
   color:#666;
@@ -133,7 +133,7 @@ nav ul li a:active{
 
 .Title{
   position:absolute;
-  top:17%;
+  top: 200px;
   margin-left: 7%;
   text-align:left;
   color:#4c4c4c;
@@ -149,14 +149,16 @@ nav ul li a:active{
 .Title img{
   display: inline-block;
   vertical-align: middle;
-  width: 10%;
+  width: 300px;
   opacity: 1.0;
-  border-radius: 60%;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
 }
 
 .Intro{
   position:absolute;
-  top:37%;
+  top:600px;
   text-align:left;
   padding-left: 8%;
   color:#4c4c4c;
@@ -181,7 +183,7 @@ nav ul li a:active{
 }
 
 .title-about{
-  font-size: 30px;
+  font-size: 40px;
   font-family: JSRB;
   letter-spacing: 2px;
   font-weight: bold;
@@ -222,7 +224,7 @@ nav ul li a:active{
 
 .languages-box{
   position: absolute;
-  top: 37%;
+  top: 600px;
   right: 30%;
   font color: black;
   font-family: JSRB;
@@ -233,7 +235,7 @@ nav ul li a:active{
 }
 .languages-title{
   color: #4c4c4c;
-  font-size: 30px;
+  font-size: 40px;
   font-family: JSRB;
   letter-spacing: 2px;
   font-weight: bold;
