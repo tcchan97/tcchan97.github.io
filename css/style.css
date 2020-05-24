@@ -133,7 +133,7 @@ nav ul li a:active{
 
 .Title{
   position:absolute;
-  top: 200px;
+  top: 20%;
   margin-left: 7%;
   text-align:left;
   color:#4c4c4c;
@@ -149,7 +149,7 @@ nav ul li a:active{
 .Title img{
   display: inline-block;
   vertical-align: middle;
-  width: 300px;
+  width: 15%;
   opacity: 1.0;
   border-radius: 50%;
   border-color: white;
@@ -158,7 +158,7 @@ nav ul li a:active{
 
 .Intro{
   position:absolute;
-  top:600px;
+  top:50%;
   text-align:left;
   padding-left: 8%;
   color:#4c4c4c;
@@ -224,8 +224,8 @@ nav ul li a:active{
 
 .languages-box{
   position: absolute;
-  top: 600px;
-  right: 30%;
+  top: 50%;
+  right: 10%;
   font color: black;
   font-family: JSRB;
 }
