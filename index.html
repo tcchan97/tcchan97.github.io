@@ -6,119 +6,63 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Thomas Chan</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 <body>
-
-  <!--  First Section -->
-  <div class="pimg1" id="ME">
-  </div>
-
-  <div class="Title">
-    <img src="/img/Me.jpg"> Thomas Chan
-  </div>
-
-
-  <div class="languages-box">
-    <ul>
-      <div class="languages-title">Skills</div>
-      <p>Vue.js | Django | Python | C/C++ | Java | SQLite3 | </p>
-      <p>MIPS Assembly | HTML/CSS | NoSQl | SPARQL </p>
-      <p>Adobe Premier Pro | Videography | Filming | Editing </p>
-    </ul>
-  </div>
-
-  <div class="Intro">
-    <ul>
-      <div class="title-about">About</div>
-      <p class="title-icon"><img src="/img/Education.png">  University of Alberta</p>
-      <pre class="title-icon2"><img src="/img/Degree.png">  Bachelor of Science Computer Science Major
-       Chemistry Minor</pre>
-      <br>
-      <p class="body-resume"><a class="body-resume-link"
-        href="2020-TC-Resume.pdf"><img src="/img/Resume.png"></a>  Resume
-      </p>
-      <div class= "body-about"> I am currently a recent computer science university  <br>
-        graduate interested in Software Development.
+  
+    <nav class="navbar"  style="background-color: #FFFFFF;>
+      <a class="navbar-brand" href="#">
+        <img src="./img/NEWLogo_3.0T.png" width="65" height="65" alt="">
+      </a>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#" style="color: #000000; text-decoration: none;">About<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #000000; text-decoration: none;";>Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #000000; text-decoration: none;">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  <div class="first-section">
+    <div class="intro">
+      <div class="into-text">
+        <div  class="w3-animate-opacity" id="intro-1">Hi, my name is</div>
+        <div  class="w3-animate-opacity" id="intro-2"><a id="meRef" href="https://www.linkedin.com/in/thomas-chan-028a1514b/">Thomas Chan</a></div>
+        <div  class="w3-animate-opacity" id="intro-3"> And im a <a id="devtag" href="https://github.com/tcchan97">Software Developer</a> </div>
       </div>
-    <ul>
+    </div>
   </div>
+  
+  <div class="second-section">
+    <div id="WTag">Work</div>
+    <div id="WContainer"> 
+      <div class="image"><img src="./img/MSU1.png" onmouseover="this.src='./img/MSU2.png'" onmouseout="this.src='./img/MSU1.png'"></div>
+      <div class="image"><img src="./img/AMD.png"></div>
+      <div class="image"><img src="./img/MQT.png"></div>
+      <div class="image"><img src="./img/MSC.png"></div>
+   </div>
+  </div>
+  
 
-
-
-
-
-  <!--  Section break one -->
-  <section class="section section-dark">
-    <h2 >Projects</h2>
-  </section>
-
-
-  <!--  Second Section -->
-  <div class="pimg2" id="PROJECTS">
-
-    <div class="section2">
-
-      <div class="card1">
-        <img src="img/MDbook Login.png" alt="Avatar">
-          <div class="overlay">
-            <div class="overlay-text-title">MDBook</div>
-            <div class="overlay-text">A medical logging application</div>
-            <a href="https://github.com/CMPUT301F18T01/MDBook"><i class="fab fa-github-alt"></i></a>
-          </div>
+  <div class="third-section">
+    <div class="Contact-info">
+      <h1>Contact Info: </h1>
+      <h2>Email: t.chan3297@gmail.com </h1>
+      <div class="icon-list">
+        <a href="https://www.linkedin.com/in/thomas-chan-028a1514b/"><i id="icon" class="fab fa-linkedin"></i></a>
+        <a href="2020-TC-Resume.pdf"><i id="icon" class="fas fa-file"></i></a>
       </div>
-
-      <div class="card1">
-        <img src="img/FeelsBook.png" alt="Avatar">
-        <div class="overlay2">
-          <div class="overlay-text-title">FeelsBook</div>
-          <div class="overlay-text">An application based on recording the emotions of individuals</div>
-          <a href="https://github.com/tcchan97/tcchan-FeelsBook"><i class="fab fa-github-alt"></i></a>
-        </div>
-      </div>
-
-
-      <div class="card1">
-        <img src="/img/StarcraftBot.png" alt="Avatar">
-        <div class="overlay3">
-          <div class="overlay-text-title">Starcraft Bot</div>
-          <div class="overlay-text-long">A Starcraft bot that plays the game while using a 5 barrack build</div>
-          <a href="https://github.com/nocduro/cmput350"><i class="fab fa-github-alt"></i></a>
-        </div>
-      </div>
-
 
     </div>
   </div>
-
-
-  <!--  Section break Two -->
-  <section class="section section-dark">
-    <h2>Contact</h2>
-  </section>
-
-  <!--  Third Section -->
-  <div class="pimg3" id="CONTACT">
-    <div class="wrapper-contact">
-      <p> t.chan3297@gmail.com</p>
-    </div>
-    <div class="contact">
-      <a href="https://github.com/tcchan97"><i class="fab fa-github-square"></i></a>
-      <a href="https://www.linkedin.com/in/thomas-chan-028a1514b/"><i class="fab fa-linkedin"></i></a>
-      <a href="https://www.instagram.com/mstr.chn/?hl=en"><i class="fab fa-instagram"></i></a>
-    </div>
-
-
-
-  </div>
-
-  <!--  Nav Bar -->
-  <nav>
-    <ul>
-      <li><a href="#ME"> ME </a></li>
-      <li><a href="#PROJECTS"> PROJECTS </a></li>
-      <li><a href="#CONTACT"> CONTACT </a></li>
-    </ul>
-  </nav>
 
 </body>
