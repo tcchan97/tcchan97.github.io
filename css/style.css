@@ -119,6 +119,7 @@
   overflow: hidden;
 }
 
+
 #WTag{
   font-weight: bold;
   font-size: 70px;
@@ -135,6 +136,11 @@
 #WContainer img{
   width: 80%;
   
+}
+
+.image i{
+  position: absolute;
+  font-size: 40px;
 }
 
 #WContainer img:hover {
